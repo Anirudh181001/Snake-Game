@@ -1,2 +1,3 @@
 # Snake-Game
-The infamous snake game in Python. No pun intended.
+The infamous snake game coded out in 'Python' accesseed using 'Anaconda', with the help of Kivy library.
+Ironic indeed.
