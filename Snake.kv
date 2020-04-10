@@ -1,0 +1,21 @@
+<Sprite>
+    bgcolor:1,1,1,1 #R,B,G,Opacity
+    size_hint:None,None #To prevent the widgets from expanding and filling up the screen
+    size: [app.sprite_size]*2 #One for x andn the other for y
+    pos :[i*app.sprite_size for i in self.coord] #position is equal to value of the coordinate * the sprite size
+    canvas:
+        Color
+            rgba: self.bgcolor
+        Rectangle
+            pos: self.pos
+            size: self.size
+<Fruit>
+    bgcolor: 0,1,0,0.4
+RelativeLayout
+    canvas:
+        Color
+            rgba: 1,0,0,app.alpha
+        Rectangle
+            pos: self.pos
+            size: self.size
+    
