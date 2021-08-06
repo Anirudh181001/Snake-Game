@@ -1,3 +1,3 @@
 # Snake-Game
-The infamous snake game coded out in 'Python' accesseed using 'Anaconda', with the help of Kivy library.
+The infamous snake game coded out in Python using Kivy GUI.
 No pun intended.
